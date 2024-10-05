@@ -1,0 +1,103 @@
+<html>
+<head>
+    <title>rekom.id</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff;
+        }
+        .container {
+            text-align: center;
+            width: 300px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .input-group label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px 40px 10px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .input-group i {
+            position: absolute;
+            right: 10px;
+            top: 35px;
+            color: #8b6b61;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #8b6b61;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #7a5a50;
+        }
+        .btn-google {
+            background-color: #fff; 
+            border: 1px solid #d3d3d3; 
+            margin-top: 15px;
+            color: #7a5a50; 
+        }
+        .btn-google:hover {    
+            background-color: #f0f0f0; 
+        }
+        .signin-link {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .signin-link a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign In</h1>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email address">
+            <i class="fas fa-envelope"></i>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <i class="fas fa-eye"></i>
+        </div>
+        <button class="btn"><a href="home.html" style="color: inherit; text-decoration: none;">Sign In</a></button>
+        <button class="btn btn-google">
+            <img alt="Google logo" height="20" src="img/google.webp" width="20"/> 
+            Sign In with Google
+        </button>
+        <div class="signin-link">
+            Don't have an account? <a href="sign_up.html">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
